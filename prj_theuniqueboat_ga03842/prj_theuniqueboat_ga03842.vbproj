@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0145A6A-790A-480A-8668-D844F145AD08}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>prj_theuniqueboat_ga03842.My.MyApplication</StartupObject>
+    <RootNamespace>prj_theuniqueboat_ga03842</RootNamespace>
+    <AssemblyName>prj_theuniqueboat_ga03842</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>prj_theuniqueboat_ga03842.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>prj_theuniqueboat_ga03842.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>prj_theuniqueboat_ga03842.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>prj_theuniqueboat_ga03842.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_allcustomers_ga03842.Designer.vb">
+      <DependentUpon>frm_allcustomers_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_allcustomers_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_allorders_ga03842.Designer.vb">
+      <DependentUpon>frm_allorders_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_allorders_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_allproducts_ga03842.Designer.vb">
+      <DependentUpon>frm_allproducts_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_allproducts_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_allstaff_ga03842.Designer.vb">
+      <DependentUpon>frm_allstaff_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_allstaff_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_customers_ga03842.Designer.vb">
+      <DependentUpon>frm_customers_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customers_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insertcustomers_ga03842.Designer.vb">
+      <DependentUpon>frm_insertcustomers_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insertcustomers_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insertproducts_ga03842.Designer.vb">
+      <DependentUpon>frm_insertproducts_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insertproducts_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insertstaff_ga03842.Designer.vb">
+      <DependentUpon>frm_insertstaff_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insertstaff_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_invoice_ga03842.Designer.vb">
+      <DependentUpon>frm_invoice_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_invoice_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_makeorders_ga03842.Designer.vb">
+      <DependentUpon>frm_makeorders_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_makeorders_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_orders_ga03842.Designer.vb">
+      <DependentUpon>frm_orders_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_orders_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_productdetails_ga03842.Designer.vb">
+      <DependentUpon>frm_productdetails_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_productdetails_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_products_ga03842.Designer.vb">
+      <DependentUpon>frm_products_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_products_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_staff_ga03842.Designer.vb">
+      <DependentUpon>frm_staff_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_staff_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mainmenu_ga03842.Designer.vb">
+      <DependentUpon>frm_mainmenu_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mainmenu_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_updatecustomers_ga03842.Designer.vb">
+      <DependentUpon>frm_updatecustomers_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_updatecustomers_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_updateproducts_ga03842.Designer.vb">
+      <DependentUpon>frm_updateproducts_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_updateproducts_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_updatestaff_ga03842.Designer.vb">
+      <DependentUpon>frm_updatestaff_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_updatestaff_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_vieworderdetails_ga03842.Designer.vb">
+      <DependentUpon>frm_vieworderdetails_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_vieworderdetails_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_welcome_ga03842.Designer.vb">
+      <DependentUpon>frm_welcome_ga03842.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_welcome_ga03842.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mod_global_ga03842.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_allcustomers_ga03842.resx">
+      <DependentUpon>frm_allcustomers_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_allorders_ga03842.resx">
+      <DependentUpon>frm_allorders_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_allproducts_ga03842.resx">
+      <DependentUpon>frm_allproducts_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_allstaff_ga03842.resx">
+      <DependentUpon>frm_allstaff_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_customers_ga03842.resx">
+      <DependentUpon>frm_customers_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insertcustomers_ga03842.resx">
+      <DependentUpon>frm_insertcustomers_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insertproducts_ga03842.resx">
+      <DependentUpon>frm_insertproducts_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insertstaff_ga03842.resx">
+      <DependentUpon>frm_insertstaff_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_invoice_ga03842.resx">
+      <DependentUpon>frm_invoice_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_makeorders_ga03842.resx">
+      <DependentUpon>frm_makeorders_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_orders_ga03842.resx">
+      <DependentUpon>frm_orders_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_productdetails_ga03842.resx">
+      <DependentUpon>frm_productdetails_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_products_ga03842.resx">
+      <DependentUpon>frm_products_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_staff_ga03842.resx">
+      <DependentUpon>frm_staff_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mainmenu_ga03842.resx">
+      <DependentUpon>frm_mainmenu_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_updatecustomers_ga03842.resx">
+      <DependentUpon>frm_updatecustomers_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_updateproducts_ga03842.resx">
+      <DependentUpon>frm_updateproducts_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_updatestaff_ga03842.resx">
+      <DependentUpon>frm_updatestaff_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_vieworderdetails_ga03842.resx">
+      <DependentUpon>frm_vieworderdetails_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_welcome_ga03842.resx">
+      <DependentUpon>frm_welcome_ga03842.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
